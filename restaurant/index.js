@@ -387,7 +387,7 @@ function cartItems(){
         span.innerText= item.quantity;
         var btn2= document.createElement('button');
         btn2.setAttribute('class','increase-item');
-        btn2.innerText = 'a';
+        btn2.innerText = '+';
         
         rowData3.appendChild(btn1);
         rowData3.appendChild(span);
